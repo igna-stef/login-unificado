@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
     "@azure/msal-angular": "^2.5.5",
-    "@azure/msal-browser": "^2.35.0",
+    "@azure/msal-browser": "^2.37.1",
     "ngx-dropzone-wrapper": "^14.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
