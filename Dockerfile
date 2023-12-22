@@ -6,7 +6,7 @@ RUN npm install
 RUN node_modules/.bin/ng build --base-href /login-unico/
 
 #stage 2
-FROM nginx:alpine
+FROM nginx:1.25.3-alpine3.18
 # Copiamos nuestro archivo de configuracion.
 COPY ./nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
